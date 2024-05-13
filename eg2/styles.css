@@ -54,6 +54,27 @@ main {
     padding-top: 25px;
 }
 
+/* Extra Small Devices, Old Phones */
+@media only screen and (max-width: 479px) {
+    #article-section {
+        flex-direction: column;
+    }
+
+    #article-section article {
+        height: 250px;
+        width: 70%;
+    }
+
+    #grid-section {
+        display: grid;
+        grid-template-columns: 200px;
+    }
+
+    #grid-section div {
+        height: 200px;
+    }
+}
+
 /* Small Devices, Phones  */
 @media only screen and (min-width : 480px) and (max-width: 767px) {
     #article-section {
