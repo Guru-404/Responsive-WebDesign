@@ -1,118 +1,119 @@
 body {
-    margin: 0px;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
+  margin: 0px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
 }
 
-header, footer {
-    background-color: black;
-    padding: 25px;
+header,
+footer {
+  background-color: black;
+  padding: 25px;
 }
 
 #article-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 #article-section article {
-    margin: 25px 0px;
-    padding: 25px;
-    height: 300px;
-    width: 400px;
+  margin: 25px 0px;
+  padding: 25px;
+  height: 300px;
+  width: 400px;
 }
 
 #article-section article:first-child {
-    background-color: lightpink;
+  background-color: lightpink;
 }
 
 #article-section article:last-child {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
 
 main {
-    background-color: purple;
-    height: 200px;
-    padding: 25px;
+  background-color: purple;
+  height: 200px;
+  padding: 25px;
 }
 
 #grid-section {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-    margin: 25px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px;
 }
 
 #grid-section div {
-    background-color: skyblue;
-    height: 300px;
-    padding-top: 25px;
+  background-color: skyblue;
+  height: 300px;
+  padding-top: 25px;
 }
 
 /* Extra Small Devices, Old Phones */
 @media only screen and (max-width: 479px) {
-    #article-section {
-        flex-direction: column;
-    }
+  #article-section {
+    flex-direction: column;
+  }
 
-    #article-section article {
-        height: 250px;
-        width: 70%;
-    }
+  #article-section article {
+    height: 250px;
+    width: 70%;
+  }
 
-    #grid-section {
-        display: grid;
-        grid-template-columns: 200px;
-    }
+  #grid-section {
+    display: grid;
+    grid-template-columns: 200px;
+  }
 
-    #grid-section div {
-        height: 200px;
-    }
+  #grid-section div {
+    height: 200px;
+  }
 }
 
 /* Small Devices, Phones  */
-@media only screen and (min-width : 480px) and (max-width: 767px) {
-    #article-section {
-        flex-direction: column;
-    }
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #article-section {
+    flex-direction: column;
+  }
 
-    #article-section article {
-        height: 250px;
-        width: 300px;
-    }
+  #article-section article {
+    height: 250px;
+    width: 300px;
+  }
 
-    #grid-section {
-        display: grid;
-        grid-template-columns: 200px 200px;
-    }
+  #grid-section {
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
 
-    #grid-section div {
-        height: 200px;
-    }
+  #grid-section div {
+    height: 200px;
+  }
 }
- 
+
 /* Medium Devices, Tablets */
-@media only screen and (min-width : 768px) and (max-width: 991px) {
-    #article-section article {
-        height: 250px;
-        width: 300px;
-    }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #article-section article {
+    height: 250px;
+    width: 300px;
+  }
 
-    #grid-section {
-        grid-template-columns: 300px 300px;
-    }
+  #grid-section {
+    grid-template-columns: 300px 300px;
+  }
 }
- 
+
 /* Large Devices, Desktops */
 /* @media only screen and (min-width : 992px) and (max-width: 1199px) {
     
 } */
- 
+
 /* Extra Large Devices, Wide Screens */
 /* @media only screen and (min-width : 1200px) {
     
